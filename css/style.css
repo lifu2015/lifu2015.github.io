@@ -94,7 +94,6 @@ Microsoft YaHei,html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h
 }
 body {
 	line-height: 1;
-	color:white;
 }
 ol,
 ul {
@@ -571,8 +570,8 @@ body {
 	font-size: 1rem;
 	font-family: Microsoft YaHei,  Helvetica, Arial, sans-serif;
 	text-rendering: optimizeLegibility;
-	/* color: rgb(0, 0, 0); /*Article Title Hover*/ 
-	color:white; /*Article & Widget Content*/
+	color: rgb(0, 0, 0); /*Article Title Hover*/ 
+	/*color:white; /*Article & Widget Content*/
 }
 body.custom-font-enabled {
 	font-family: Microsoft YaHei,  Helvetica, Arial, sans-serif;
@@ -584,8 +583,8 @@ a {
     text-decoration: none;
 }
 a:hover {
-	/* color: rgb(0, 0, 0); /*Article Title Hover*/ 
-	color: white;
+	color: rgb(0, 0, 0); /*Article Title Hover*/ 
+	/*color: white;*/
     text-decoration: underline;
 }
 
