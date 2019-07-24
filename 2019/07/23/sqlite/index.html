@@ -2,9 +2,9 @@
 <html>
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
-  <title>图坦卡门</title>
-  <meta name="keywords" content>
-  <meta name="description" content="图坦卡门">
+  <title>SQLite | 图坦卡门</title>
+  <meta name="keywords" content=" db ">
+  <meta name="description" content="SQLite | 图坦卡门">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="过程 搭建前需要在你的设备上安装：   git Nodejs hexo markdown 编辑器（我用的是vs code）   配置内容：   注册github 连接github与本地 配置hexo的_config（title,theme,deplop等） 注册域名并绑定域名  参考 GitHub+Hexo 搭建个人网站详细教程  hexo搭建Github博客上传后，访问网页显示404问题解决方案">
 <meta name="keywords" content="配置">
@@ -53,7 +53,7 @@
 </div>
 
 <body>
-<aside class="nav mobile">
+<aside class="nav">
     <div class="nav-left">
         <a href="/" class="avatar_target">
     <img class="avatar" src="/img/avatar.jpg" />
@@ -161,12 +161,49 @@
         </div>
     </div>
 </aside>
-<div class="post index">
+<div class="post">
     <div class="pjax">
-        <article class="index">
-            <div class="toc-ref">
+        <article id="post-sqlite" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Why-Blog"><span class="toc-text">Why Blog</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#图坦卡门"><span class="toc-text">图坦卡门</span></a></li></ol></li></ol>
+        <h1 class="article-title">SQLite</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        
+        <span class="tag">
+            
+            <a href="javascript:" class="color3">db</a>
+            
+        </span>
+        
+    </div>
+    <div class="article-meta">
+        
+        创建时间:<time class="date" title='更新时间: 2019-07-23 13:15:15'>2019-07-23 10:49</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        
+        <span id="busuanzi_container_page_pv">
+            阅读:<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-安装"><span class="toc-text">1. 安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-命令"><span class="toc-text">2. 命令</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#参考"><span class="toc-text">参考</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-基本操作"><span class="toc-text">3. 基本操作</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -179,18 +216,72 @@
     }
 </style>
 </div>
-            <h1 id="Why-Blog"><a href="#Why-Blog" class="headerlink" title="Why Blog"></a>Why Blog</h1><p>记录个人兴趣</p>
-<h2 id="图坦卡门"><a href="#图坦卡门" class="headerlink" title="图坦卡门"></a>图坦卡门</h2><p><em>图坦卡门</em> 是fuzi233的个人兴趣博客</p>
-<p>到目前为止已经写了<code class="article_number"></code>篇文章， 共<code class="site_word_count"></code>字。</p>
-<p>本站访问人数：<code class="site_uv"></code>人次 ， 访问量：<code class="site_pv"></code>次</p>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><strong>参考：</strong><br><a href="http://www.runoob.com/sqlite/sqlite-tutorial.html" target="_blank" rel="noopener">http://www.runoob.com/sqlite/sqlite-tutorial.html</a></p>
+<h2 id="1-安装"><a href="#1-安装" class="headerlink" title="1. 安装"></a>1. 安装</h2><ul>
+<li>Linux<br>自带  </li>
+<li>Windows<br>需要下载sqlite-tools-win32-<em>.zip 和 sqlite-dll-win32-</em>.zip（或者64那个版本），然后将这两个解压到同一个目录中比如 C:\sqlite 然后将这个路径添加到PATH环境变量中</li>
+</ul>
+<h2 id="2-命令"><a href="#2-命令" class="headerlink" title="2. 命令"></a>2. 命令</h2><p>在命令行输入  sqlite3  进入SQLite提示符</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[root@h104 ~]<span class="comment"># sqlite3</span></span><br><span class="line">SQLite version 3.6.20</span><br><span class="line">Enter <span class="string">".help"</span> <span class="keyword">for</span> instructions</span><br><span class="line">Enter SQL statements terminated with a <span class="string">";"</span></span><br><span class="line">sqlite&gt;</span><br></pre></td></tr></table></figure>
 
-        </article>
-        
-        <p>
-            <a href="javascript:void(0)" class="dashang" onclick="dashangToggle()">赏</a>
-        </p>
-        
-        
+<p>SQLite的命令格式：  <strong>.（点） 命令名称</strong><br>例如：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">sqlite&gt; .database   <span class="comment"># 列出数据库的名称及其所依附的文件</span></span><br><span class="line">seq  name             file    </span><br><span class="line">---  ---------------  ------</span><br><span class="line">0    main                            </span><br><span class="line">sqlite&gt; .<span class="built_in">exit</span>       <span class="comment"># 退出 SQLite 提示符</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ol>
+<li><a href="https://sqlite.org/cli.html" target="_blank" rel="noopener">官方文档</a>   </li>
+<li><a href="http://www.runoob.com/sqlite/sqlite-commands.html" target="_blank" rel="noopener">Runoob</a></li>
+</ol>
+<h2 id="3-基本操作"><a href="#3-基本操作" class="headerlink" title="3. 基本操作"></a>3. 基本操作</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">[root@h104 ~]<span class="comment"># sqlite3 db1               #创建数据库db1   </span></span><br><span class="line">SQLite version 3.6.20</span><br><span class="line">Enter <span class="string">".help"</span> <span class="keyword">for</span> instructions</span><br><span class="line">Enter SQL statements terminated with a <span class="string">";"</span></span><br><span class="line">sqlite&gt; .database</span><br><span class="line">seq  name             file          </span><br><span class="line">---  ---------------  </span><br><span class="line">0    main             /root/db1                        </span><br><span class="line">sqlite&gt; create table t1(id int,name varchar(32));   <span class="comment"># 创建表t1</span></span><br><span class="line">sqlite&gt; insert into t1 values(1,<span class="string">"zhang3"</span>);          <span class="comment"># 插入一条数据  </span></span><br><span class="line">sqlite&gt; select * from t1;                           <span class="comment"># 查询表t1  </span></span><br><span class="line">1|zhang3</span><br><span class="line">sqlite&gt;</span><br></pre></td></tr></table></figure>
+
+<p><em>sqlite3 db1   创建一个名称为db1的数据库，会在当前目录下创建 db1文件</em></p>
+<p>再创建一个数据库 db2</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">[root@h104 ~]<span class="comment"># sqlite3 db2</span></span><br><span class="line">SQLite version 3.6.20</span><br><span class="line">Enter <span class="string">".help"</span> <span class="keyword">for</span> instructions</span><br><span class="line">Enter SQL statements terminated with a <span class="string">";"</span></span><br><span class="line">sqlite&gt; create table t2(code int,desc varchar(32));</span><br><span class="line">sqlite&gt; insert into t2 values(66589,<span class="string">"it is a secret code"</span>);</span><br><span class="line">sqlite&gt; select * from t2;</span><br><span class="line">66589|it is a secret code</span><br><span class="line">sqlite&gt;</span><br></pre></td></tr></table></figure>
+
+<p>再次选中db1库  ，linux与windows版本稍有不同。在windows中有open 和save命令，我使用的linux版本中 没有这两个命令 </p>
+<ul>
+<li><p>linux</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@h104 ~]<span class="comment"># sqlite3 db1</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>windows</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">E:\<span class="title">software</span>\<span class="title">sqlite</span>&gt;<span class="title">sqlite3</span></span></span><br><span class="line"><span class="function"><span class="title">SQLite</span> <span class="title">version</span> 3.29.0 2019-07-10 17:32:03</span></span><br><span class="line"><span class="function"><span class="title">Enter</span> ".<span class="title">help</span>" <span class="title">for</span> <span class="title">usage</span> <span class="title">hints</span>.</span></span><br><span class="line"><span class="function"><span class="title">Connected</span> <span class="title">to</span> <span class="title">a</span> <span class="title">transient</span> <span class="title">in</span>-<span class="title">memory</span> <span class="title">database</span>.</span></span><br><span class="line"><span class="function"><span class="title">Use</span> ".<span class="title">open</span> <span class="title">FILENAME</span>" <span class="title">to</span> <span class="title">reopen</span> <span class="title">on</span> <span class="title">a</span> <span class="title">persistent</span> <span class="title">database</span>.</span></span><br><span class="line"><span class="function"><span class="title">sqlite</span>&gt; .<span class="title">open</span> <span class="title">test1.db</span></span></span><br><span class="line"><span class="function"><span class="title">sqlite</span>&gt; .<span class="title">database</span></span></span><br><span class="line"><span class="function"><span class="title">main</span>: <span class="title">E</span>:\<span class="title">software</span>\<span class="title">sqlite</span>\<span class="title">test1.db</span></span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+
+      
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 jaytp@qq.com </span>
+    </div>
+</article>
+
+
+<p>
+    <a href="javascript:void(0)" class="dashang" onclick="dashangToggle()">赏</a>
+</p>
+
+
+<div class="article_copyright">
+    <p><span class="copy-title">文章标题:</span>SQLite</p>
+    
+    <p><span class="copy-title">本文作者:</span><a href="javascript:void(0)" title="fuzi233">fuzi233</a></p>
+    <p><span class="copy-title">发布时间:</span>2019-07-23, 10:49:56</p>
+    <p><span class="copy-title">最后更新:</span>2019-07-23, 13:15:15</p>
+    <span class="copy-title">原始链接:</span><a class="post-url" href="/2019/07/23/sqlite/" title="SQLite">http://ls.fuzi233.com/2019/07/23/sqlite/</a>
+    <p>
+        <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+    </p>
+</div>
+
+
+
+
+
+    
+
+
+
+
     </div>
     <div class="copyright">
         <p class="footer-entry">©2016-2019 fuzi233</p>
