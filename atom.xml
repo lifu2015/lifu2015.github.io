@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ls.fuzi233.com/"/>
-  <updated>2019-07-23T10:15:15.637Z</updated>
+  <updated>2019-08-03T08:03:03.865Z</updated>
   <id>http://ls.fuzi233.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Solve rust link error on WIN7</title>
+    <link href="http://ls.fuzi233.com/2019/08/03/solverustlinkerror/"/>
+    <id>http://ls.fuzi233.com/2019/08/03/solverustlinkerror/</id>
+    <published>2019-08-03T07:57:13.000Z</published>
+    <updated>2019-08-03T08:03:03.865Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;ENV&quot;&gt;&lt;a href=&quot;#ENV&quot; class=&quot;headerlink&quot; title=&quot;ENV&quot;&gt;&lt;/a&gt;ENV&lt;/h2&gt;&lt;p&gt;windows 7 &lt;/p&gt;
+&lt;h2 id=&quot;Problem&quot;&gt;&lt;a href=&quot;#Problem&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="配置" scheme="http://ls.fuzi233.com/tags/%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>SQLite</title>
