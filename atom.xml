@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ls.fuzi233.com/"/>
-  <updated>2019-08-03T08:03:03.865Z</updated>
+  <updated>2019-08-07T14:17:16.828Z</updated>
   <id>http://ls.fuzi233.com/</id>
   
   <author>
@@ -15,6 +15,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>修改网页标签的小图标(转)</title>
+    <link href="http://ls.fuzi233.com/2019/08/07/websiteico/"/>
+    <id>http://ls.fuzi233.com/2019/08/07/websiteico/</id>
+    <published>2019-08-07T14:10:23.000Z</published>
+    <updated>2019-08-07T14:17:16.828Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;修改web项目的favicon图标，方式有两种：全局方式和局部方式&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;全局方式：&quot;&gt;&lt;a href=&quot;#全局方式：&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="HTML" scheme="http://ls.fuzi233.com/tags/HTML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Learning Rust</title>
+    <link href="http://ls.fuzi233.com/2019/08/03/learnrust/"/>
+    <id>http://ls.fuzi233.com/2019/08/03/learnrust/</id>
+    <published>2019-08-03T08:12:30.000Z</published>
+    <updated>2019-08-03T08:26:08.385Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;Rust-Package&quot;&gt;&lt;a href=&quot;#Rust-Package&quot; class=&quot;headerlink&quot; title=&quot;Rust Package&quot;&gt;&lt;/a&gt;Rust Package&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;cargo new hello 
+        
+      
+    
+    </summary>
+    
+    
+      <category term="rust" scheme="http://ls.fuzi233.com/tags/rust/"/>
+    
+  </entry>
   
   <entry>
     <title>Solve rust link error on WIN7</title>
