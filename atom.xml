@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ls.fuzi233.com/"/>
-  <updated>2019-08-07T14:17:16.828Z</updated>
+  <updated>2019-08-11T07:46:18.873Z</updated>
   <id>http://ls.fuzi233.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>带关闭按钮的浮动窗口（转）</title>
+    <link href="http://ls.fuzi233.com/2019/08/11/htmlfloatwindows/"/>
+    <id>http://ls.fuzi233.com/2019/08/11/htmlfloatwindows/</id>
+    <published>2019-08-11T07:44:51.000Z</published>
+    <updated>2019-08-11T07:46:18.873Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;转载一个带关闭按钮的浮动窗口&quot;&gt;&lt;a href=&quot;#转载一个带关闭按钮的浮动窗口&quot; class=&quot;headerlink&quot; title=&quot;转载一个带关闭按钮的浮动窗口&quot;&gt;&lt;/a&gt;转载一个带关闭按钮的浮动窗口&lt;/h3&gt;&lt;pre class=&quot;line-numbers
+        
+      
+    
+    </summary>
+    
+    
+      <category term="html" scheme="http://ls.fuzi233.com/tags/html/"/>
+    
+  </entry>
   
   <entry>
     <title>修改网页标签的小图标(转)</title>
